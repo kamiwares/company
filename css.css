@@ -1,0 +1,460 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	scroll-behavior: smooth;
+	cursor: default;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	text-decoration: none;
+}
+.content-hidden{
+	display: none;
+}
+
+.content-display{
+	display: block;
+}
+#first-section{
+	display: flex;
+	background-color: black;
+	align-items: center;
+	justify-content: space-between;
+	height: 80vh;
+}
+
+#demo{
+	font-size: 128px;
+	align-items: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Usdollar100front.jpg/640px-Usdollar100front.jpg);
+	letter-spacing: 32px;
+}
+
+.animate__animated.animate__flash {
+  --animate-duration: 5s;
+   --animate-delay: 2s;
+}
+
+#second-section{
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+#second-section p{
+	font-size: 64px;
+	color: white;
+	text-shadow: 0 0 5px black, 0 0 7px black;
+	letter-spacing: 4px;
+	cursor: pointer;
+
+}
+
+.parallax{
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Money_Cash.jpg");
+		background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section{
+	padding: 40px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#third-section img{
+	border-radius: 10px;
+}
+
+.item{
+	margin: 10px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.item-name{
+	margin-top: 12px;
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+
+.item-desc{
+	margin-top: 12px;
+}
+
+.item-price{
+	font-size: 32px;
+	margin-top: 32px;
+}
+
+.item-bs{
+	margin-top: 32px;
+	color: black;
+	font-size: 32px;
+	text-shadow: 0 0 1px red, 0 0 3px red;
+}
+
+.bs-price{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.item-iis{
+	color: white;
+}
+
+.order{
+	display: flex;
+	font-size: 32px;
+	border-radius: 64px;
+	background-color: #281B1B;
+	align-items: center;
+	justify-content: center;
+	padding: 32px;
+	margin-top: 12px;
+	color: white;
+	transition: 1s;
+	font-weight: 100;
+	line-height: inherit;
+}
+
+.order:hover{
+	opacity: 0.4;
+	cursor: pointer;
+	transition: 1s;
+	background-color: green;
+}
+
+
+#fourth-section{
+	height: 90vh;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+
+#lambo{
+	width: 100%;
+	height: 100%;
+ 	background-image: url("lambo.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-size: cover;
+}
+#about-us p{
+	width: 40vw;
+	padding: 20px;
+	line-height: 3;
+}
+
+#popup{
+	display: flex;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 0 0 3px black, 0 0 7px black;
+  border-top: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.sale{
+	margin-left: 10px;
+	animation-duration: 3s;
+	font-size: 4vw;
+}
+
+.newsletter{
+	display: flex;
+	padding: 10px;
+	animation-duration: 3s;
+}
+
+.newsletter form{
+	padding: 20px;
+
+}
+.newsletter p{
+	padding: 20px;
+	font-size: 42px;
+
+}
+
+.newsletter input{
+		font-size: 30px;
+
+}
+
+
+.button{
+	width: 128px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.none{
+	display: none;
+}
+
+
+#fifth-section{
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 70vh;
+	background-color: white;
+
+}
+.smaller{
+	width: 10vw;
+}
+
+.review img{
+	border-radius: 200px;
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.review{
+	margin: 10px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+	display: block;
+	height: auto;
+	background-color: black;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+
+}
+footer #footer-head{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer #copyright{
+	padding: 15px;
+	font-size: 15px;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,102,119,1) 50%, rgba(0,0,0,1) 100%);
+	letter-spacing: 2px;
+}
+footer p{
+	padding: 5px;
+}
+
+.review p{
+	font-size: 20px;
+}
+
+.marker-1{
+	background-color: #8176e6;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.marker-2{
+	background-color: #8ffa8f;
+	margin-top: 10px;
+	border-radius: 10px;
+	width: 80%;
+}
+.marker-3{
+	background-color: #f3afaf;
+	margin-top: 10px;
+	border-radius: 10px;
+	width: 40%;
+}
+
+
+.cursive{
+	font-style: c;
+}
+
+.footer-section p{
+	cursor: pointer;
+}
+
+.item img{
+	height: 250px;
+	width: 250px;
+}
+
+
+
+#order-section{
+	display: block;
+	position: fixed;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	width: 100vw;
+	display: none;
+}
+#exit{
+	cursor: pointer;
+}
+
+.border{
+		border-bottom: black 1px solid;
+
+}
+#order-section p{
+	text-align: left;
+	padding: 20px;
+}
+
+#products{
+	display: flex;
+	justify-content: space-around;
+}
+
+.item-of{
+	display: block;
+	margin: 30px;
+	text-align: left;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.item-pic{
+	display: flex;
+	height: 200px;
+	width: 250px;
+	background-color: black;
+	background-image: url('https://www.luxbryle.pl/6860-home_default/casilda-okulary-damskie-przeciwsloneczne.jpg');
+
+}
+
+.item-pic input{
+	margin: 20px;
+	align-items: left;
+	height: 20px;
+	width: 20px;
+}
+.options{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.line{
+	width: 80vw;
+	height: 2px;
+	background-color: black;
+}
+
+.order-button{
+	margin: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
+/* Media quereis */
+
+@media only screen and (max-width: 770px) {
+	#third-section{
+		display: block;
+		height: auto;
+		
+	}
+	#about-us{
+		width: auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	#about-us p{
+		font-size: 3vw;
+
+
+	}
+
+	#demo{
+		font-size: 50px;
+	}
+	.item{
+		padding: 10px;
+	}
+
+
+	#footer{
+		display: none;
+	}
+	#popup{
+		display: none;
+		background-color: white;
+	}
+	#lambo{
+
+	}
+	#products{
+		display: block;
+
+	}
+	#order-section{
+		position: absolute;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.item{
+		padding: 0;
+	}
+	#third-section{
+		padding: 0;
+	}
+	.options{
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#fifth-section{
+			display: block;
+			height: auto;
+			margin: 10px;
+		}
+
+}
